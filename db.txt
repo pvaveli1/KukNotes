@@ -1,1 +1,1 @@
- [{"note": "Aufgaben loesen", "id": "1"}, {"note": "Einkaufen", "id": "2"}]
+ [{"note": "Aufgaben loesen", "id": "1"}, {"note": "Einkaufen", "id": "2"}, {"note": "Blumen gießen", "id": "3"}]
