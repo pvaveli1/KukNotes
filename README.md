@@ -28,7 +28,7 @@ ANLEITUNG
     PUT-Request  = curl -i -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://localhost:1337/notes/3  
 
 
---------------
+---------------
 Hinweis: Bei einem Neustart des Servers, verschwinden alle Notizen die mit der POST-Request ausgeführt wurden.
 
--------------
+---------------
