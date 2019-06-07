@@ -3,7 +3,7 @@ Erstellen einer Notizenanwendung
 ==============================================================================================
 Programmiersprache:Python
 
-Framework: PyChar
+Framework: PyCharm
 
 verwendete Bibliotheken: flask
 
@@ -17,17 +17,18 @@ ANLEITUNG
 
 1.  Terminal öffnen
 2.  Gehen Sie in das Projektverzeichnis und führen Sie die „RestApi.py“ aus, um das Programm zu starten
-    
-    #Alle Notizen anzeigen
+3.  Über das Terminal können Sie folgende Befehle ausführen 
+
+    ##Alle Notizen anzeigen
     GET-REQUEST = curl -i http://localhost:1337/notes
     
-    #Eine bestimmte Notiz anzeigen, anhand einer existierenden id
+    ##Eine bestimmte Notiz anzeigen, anhand einer existierenden id
     GET-Request = curl -i http://localhost:1337/notes/<id>
     
-    #Notiz hinzufuegen
+    ##Notiz hinzufuegen
     POST-Request = curl -i -H "Content-Type: application/json" -X POST -d '{"note":"Fitness"}' http://localhost:1337/notes
     
-    #Notiz verändern
+    ##Notiz verändern
     PUT-Request  = curl -i -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://localhost:1337/notes/3  
 
 --------------
