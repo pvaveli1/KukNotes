@@ -1,11 +1,10 @@
 # KukNotes
 Erstellen einer Notizenanwendung
 ==============================================================================================
-Programmiersprache:Python
-Framework: PyCharm
-verwendete Bibliotheken: flask
-verwendetes Format: JSON
-
+Programmiersprache:Python;
+Framework: PyCharm;
+verwendete Bibliotheken: flask;
+verwendetes Format: JSON;
 url: http://localhost:1337/notes
 
 ==============================================================================================
